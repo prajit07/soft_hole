@@ -1,0 +1,9 @@
+# Soft Hole Blocklist
+# One domain per line
+# Lines starting with # are comments
+
+ads.google.com
+doubleclick.net
+tracking.example.com
+ads.facebook.com
+analytics.google.com
