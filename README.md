@@ -18,6 +18,11 @@ Simple. Transparent. Powerful.
 - ⚡ Lightweight and fast execution
 - 🧪 Ideal for labs, demos, and academic projects
 - 🔧 Easily extensible architecture
+  
+## 🧾 Blocklist Configuration
+
+Soft Hole loads blocked domains from an external file:
+
 
 ---
 
