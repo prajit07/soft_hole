@@ -31,3 +31,26 @@ Simple. Transparent. Powerful.
     ├── Allow / Deny Decision
                ↓
     [ Upstream DNS (Google / Cloudflare / Unbound) ]
+
+Soft Hole acts as a local DNS authority and filters name resolution requests before they leave the network.
+
+---
+
+## 🛠️ Requirements
+
+- Linux (Kali, Ubuntu, Debian recommended)
+- Python 3.8+
+- Root privileges (required for port 53)
+- Internet connectivity
+
+---
+
+## 📦 Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/prajit07/soft_hole.git
+cd soft_hole
+pip install dnslib
+sudo python3 dns_filter.py
